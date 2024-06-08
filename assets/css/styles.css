@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid-container .desafiop1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid-container .desafiop1 .parag1 {
+  font-weight: 900;
+  font-size: 30px;
+}
+.grid-container .desafiop1 .containerimg img {
+  height: 300px;
+  width: auto;
+}
+.grid-container .desafiop2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid-container .desafiop2 .p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 30px;
+}
+.grid-container .desafiop2 .flex-v {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid-container .desafiop2 .flex-h {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.grid-container .desafiop2 .flex-v img {
+  height: 300px;
+  max-width: 400px;
+}
+.grid-container .btnbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.desafiop3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.desafiop3 .p3 {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.mt-2 {
+  margin-top: 1em;
+}/*# sourceMappingURL=styles.css.map */

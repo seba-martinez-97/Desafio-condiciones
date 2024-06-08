@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Desafio condiciones</title>
+</head>
+<body>
+    
+<div class="grid-container">
+
+<div class="desafiop1">
+<br>
+<p class="parag1">Parte 1 Cambiando el color del borde a img</p>
+<br>
+<div class="containerimg">
+<img src="./assets/img/GOWR.webp"> 
+</div>
+
+</div>
+<br>
+
+<div class="desafiop2">
+
+    <p class="p2">Parte 2 Puedes llevar hasta 10 stickers en total </p>
+    <br>
+    <div class="flex-h">
+        <div class="flex-v">
+            <img src="./assets/img/sticker 1.jpg" class="flex-item" alt="">
+            <input name="" id="p-1" class="flex-item" onkeypress="return validenumero(event);">
+          </div>
+          <div class="flex-v">
+            <img src="./assets/img/sticker 2.jpg" class="flex-item" alt="">
+            <input name="" id="p-2" class="flex-item" onkeypress="return validenumero(event);">
+          </div> 
+          <div class="flex-v">
+            <img src="./assets/img/sticker 3.jpg" class="flex-item" alt="">
+            <input name="" id="p-3" class="flex-item" onkeypress="return validenumero(event);">
+          </div>
+
+    </div>  
+<br>
+<br>
+<p id="result">  </p>
+<br>
+<div class="btnbox">
+    
+    <button  class="btnverify"  onclick="sumarcantidad()"> Verificar </button> 
+    <button  class="btnlmp"  onclick="limpiarcampos()"> Limpiar campos </button>
+</div>
+
+</div>
+<br>
+<div class="desafiop3">
+
+    
+    <h3 class="p3">Parte 3 Ingresa el password correcto</h3>
+    <div>
+        <br>
+      <select id="bx1" name="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select id="bx2" name="">
+                <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select id="bx3" name="">
+                <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+    </div>
+    <button class="mt-2" onclick="validapwd()">Ingresar</button>
+    <p id="mensaje"></p>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+
+
+</div>
+
+<script src="./assets/js/index.js"></script>
+</body>
+</html>
